@@ -18,7 +18,6 @@ public class TodoDetail extends HttpServlet {
 		RequestDispatcher view = req.getRequestDispatcher(path);
 		view.forward(req, res);
 	}
-
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		// TODO Auto-generated method stub
 		doGet(request, response);
