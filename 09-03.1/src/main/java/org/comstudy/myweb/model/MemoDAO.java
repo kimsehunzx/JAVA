@@ -150,6 +150,7 @@ public class MemoDAO {
 	}
 	
 	public static void updateMemoTest() {
+		// id가 같은 요소의 내용을 변경
 		Memo memo = new Memo(1, "수정 테스트", "수정 내용");
 		dao.updateMemo(memo);
 		getAllMemosTest();
